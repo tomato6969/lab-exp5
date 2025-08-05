@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int num;
+    cout<<"enter the number = ";
+    cin>>num;
+    if(num==0){
+        cout<<"the number is even";
+    }
+    else if(num%2!=0){
+        cout<<"the number is odd";
+    
+    }
+    else
+    {
+        cout<<"the number is even";
+    }
+    
+    
+    return 0;
+}
+
+OUTPUT:
+enter the number = 6
+the number is even
